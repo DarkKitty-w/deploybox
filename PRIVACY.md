@@ -1,6 +1,6 @@
 # LockAutopsy — Privacy Policy
 
-Last updated: 30 October 2026
+Last updated: 31 October 2026
 Applies to: the LockAutopsy Firefox add-on (`lock-autopsy@lockautopsy.org`), the LockAutopsy
 userscript, and the LockAutopsy service at `https://lock-autopsy.smither.workers.dev`.
 
@@ -38,6 +38,11 @@ anywhere else, and it is never placed in a URL.
 
 The database keeps aggregate counts (per hour and per day) and, for a paid report, the payment
 record needed to prove the purchase. It does not keep a history of which addresses you looked at.
+
+One exception, stated plainly: if you pay the **machine endpoint (x402)** rather than the website,
+the report you paid for is stored encrypted — it contains the address you asked about — so that
+retrying the same payment returns the same answer instead of asking you to pay twice. It is deleted
+90 days after the payment settles. The website checkout does not store the report at all.
 
 ## Contact
 
